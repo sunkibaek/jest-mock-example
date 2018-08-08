@@ -13,4 +13,11 @@ function start() {
   return true;
 }
 
+function somethingElse() {
+  firebase.initializeApp.start();
+
+  return true;
+}
+
 module.exports = start;
+module.exports.somethingElse = somethingElse;
