@@ -1,5 +1,9 @@
-const sum = require("../index");
+const start = require("../index");
 
-test("adds 1 + 2 to equal 3", () => {
-  expect(sum(1, 2)).toBe(3);
+describe("start", () => {
+  it("returns true", () => {
+    const result = start();
+
+    expect(result).toBe(true);
+  });
 });
